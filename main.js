@@ -257,13 +257,20 @@ let scrollContacts = document.querySelector('.footer__items');
 
 about.addEventListener('click', () => {
   scrollAbout.scrollIntoView({ behavior: 'smooth' });
-  burger.classList.remove('active');
-  header__menu.classList.remove('active');
-  document.body.classList.remove('lock');
-  header.classList.remove('fixed');
-  firstTitle.classList.remove('active');
-  secTitle.classList.remove('active');
-  musicOne.classList.remove('active');
+  //   burger.classList.remove('active');
+  //   header__menu.classList.remove('active');
+  //   document.body.classList.remove('lock');
+  //   header.classList.remove('fixed');
+  //   firstTitle.classList.remove('active');
+  //   secTitle.classList.remove('active');
+  //   musicOne.classList.remove('active');
+  burger.classList.toggle('active');
+  header__menu.classList.toggle('active');
+  document.body.classList.toggle('lock');
+  header.classList.toggle('fixed');
+  firstTitle.classList.toggle('active');
+  secTitle.classList.toggle('active');
+  musicOne.classList.toggle('active');
 });
 news.addEventListener('click', () => {
   burger.classList.remove('active');
