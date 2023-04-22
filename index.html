@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="slick.min.js"></script>
+    <script defer src="main.js"></script>
+    <title>Music</title>
+  </head>
+  <body>
+    <!-- Основная оболчка -->
+    <div class="wrapper">
+      <!-- Первая страница -->
+      <div class="first">
+        <header class="first__header header">
+          <div class="container">
+            <div class="header__items">
+              <div class="header__logo">
+                <div class="header__logoImg">
+                  <img src="img/Logo.png" alt="" />
+                </div>
+                <div class="header__logoTxt">
+                  <img src="img/LogoTxt.png" alt="" />
+                </div>
+              </div>
+              <ul class="header__menu">
+                <li class="header__letters about">About</li>
+                <li class="header__letters news">News</li>
+                <li class="header__letters music">Music</li>
+                <li class="header__letters media">Media</li>
+                <li class="header__letters tours">Tours</li>
+                <li class="header__letters contacts">Contacts</li>
+              </ul>
+              <div class="header__burger"><span></span></div>
+            </div>
+          </div>
+        </header>
+        <main class="first__main first-main">
+          <div class="container">
+            <div class="first-main__title">New Single</div>
+            <div class="first-main__secTitle">War For Love</div>
+            <audio
+              class="first-main__audio"
+              src="audio/Bright Lights, Kaleena Zanders, Kandy — War For Love.mp3"
+            ></audio>
+            <div class="first-main__music first-music">
+              <div class="first-music__items">
+                <div class="first-music__control">
+                  <img
+                    class="first-music__button"
+                    src="img/PlayButton.png"
+                    alt=""
+                  />
+                </div>
+                <div class="first-music__progress">
+                  <div class="first-music__playing"></div>
+                </div>
+                <div class="first-music__time">00:00/00:00</div>
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <!-- Картинка на весь экран по ibg -->
+        <div class="main-screen">
+          <div class="main-screen__bg ibg">
+            <img class="img__second" src="img/1stBasePic.png" alt="" />
+          </div>
+        </div>
+        <!-- \Картинка на весь экран по ibg -->
+        <div class="cards">
+          <div class="container">
+            <div class="cards__items">
+              <div class="cards__item">
+                <div class="cards__img">
+                  <img class="cards-img" src="img/cardImg1.png" alt="" />
+                </div>
+                <div class="cards__text">
+                  <div class="cards__txtCont">
+                    Working on my upcoming full-lenth album that`s releasing
+                    later this year.
+                  </div>
+                </div>
+              </div>
+              <div class="cards__item">
+                <div class="cards__img">
+                  <img class="cards-img" src="img/cardImg2.png" alt="" />
+                </div>
+                <div class="cards__text">
+                  <div class="cards__txtCont">
+                    Halloween vibes. Listen my new track!
+                  </div>
+                </div>
+              </div>
+              <div class="cards__item">
+                <div class="cards__img">
+                  <img class="cards-img" src="img/cardImg3.png" alt="" />
+                </div>
+                <div class="cards__text">
+                  <div class="cards__txtCont">
+                    WarForLove is OUT NOW!! Stream it here!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blAbout">
+          <div class="container">
+            <div class="blAbout__title">
+              <div class="blAbout__titletimg">
+                <img src="img/lines.png" alt="" />
+              </div>
+              <div class="blAbout__titletxt title">Bright Lights</div>
+            </div>
+            <div class="blAbout__items">
+              <div class="blAbout__left">
+                <div class="blAbout__left-1">
+                  <p class="blAbout__txt1">
+                    Bright Lights is a multi-Grammy nominated singer,
+                    songwriter, DJ and record producer. She has written for
+                    numerous
+                  </p>
+                  <p class="blAbout__txt2">
+                    pop stars including Britney Spears, Justin Bieber, Usher and
+                    Beyoncé. Her catalog has amassed over 1 billion streams
+                    worldwide. More than 100 million of those streams can be
+                    attributed to her artist career and include such hits as
+                    Porter Robinson's "Language," 3LAU's "How You Love Me" and
+                    her own single "Runaway." She was also a featured vocalist
+                    on Zedd's #1 Clarity album. Her latest music video, "Put It
+                    Down," reached 1 million streams in the first week,
+                    releasing independently. Bright Lights is currently in the
+                    studio working on a self-produced album slated for release
+                    in 2020.
+                  </p>
+                </div>
+                <div class="blAbout__left-2">
+                  <div class="blAbout__facts">
+                    <div class="blAbout__factsimg"></div>
+                    <div class="blAbout__factstxt">Based in: Los Angeles</div>
+                  </div>
+                  <div class="blAbout__facts">
+                    <div class="blAbout__factsimg"></div>
+                    <div class="blAbout__factstxt">Founded in 2011</div>
+                  </div>
+                  <div class="blAbout__facts">
+                    <div class="blAbout__factsimg"></div>
+                    <div class="blAbout__factstxt">Genre: #DancePop</div>
+                  </div>
+                  <div class="blAbout__facts">
+                    <div class="blAbout__factsimg"></div>
+                    <div class="blAbout__factstxt">Label: 333 Recordings</div>
+                  </div>
+                </div>
+              </div>
+              <div class="blAbout__right">
+                <div class="blAbout__img1">
+                  <img src="img/blimg.png" alt="" />
+                </div>
+                <div class="blAbout__img2">
+                  <img src="img/blimg2.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="quote">
+          <div class="container">
+            <div class="quote__items">
+              <div class="quote__content">
+                <div class="quote__txt">
+                  “In an age where mainstream music is designed to be as easily
+                  consumed as possible, listening to Bright Lights is
+                  refreshing, to say the least. Her sound is perfect for radio
+                  but complex enough to separate her from other pop newcomers.”
+                </div>
+                <div class="quote__link">PopULove.net</div>
+                <div class="quote__QImg"><img src="img/QImg.png" alt="" /></div>
+              </div>
+              <div class="quote__img">
+                <img src="img/quoteImg.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tracks">
+          <div class="container">
+            <div class="tracks__items">
+              <div class="tracks__left">
+                <div class="tracks__img">
+                  <div class="tracks__img1">
+                    <img src="img/tracksImg.png" alt="" />
+                  </div>
+                  <div class="tracks__img2"></div>
+                  <div class="tracks__img3"></div>
+                </div>
+              </div>
+              <div class="tracks__right">
+                <div class="tracks__title">
+                  <div class="tracks__titleImg">
+                    <img src="img/lines.png" alt="" />
+                  </div>
+                  <div class="tracks__titletxt title">Last Tracks</div>
+                </div>
+                <div class="tracks__playback">
+                  <audio
+                    class="tracks__audio"
+                    src="audio/3LAU, Bright Lights — How You Love Me.mp3"
+                  ></audio>
+                  <div class="tracks__button">
+                    <img class="tracks__Img" src="img/PlayButton.png" alt="" />
+                  </div>
+                  <div class="tracks__progress">
+                    <div class="tracks__done"></div>
+                  </div>
+                  <div class="tracks__time">00:00-00:00</div>
+                </div>
+                <div class="tracks__list">
+                  <div class="tracks__listItem tr_1">
+                    <div class="tracks__number">01</div>
+                    <div class="tracks__music">
+                      3LAU, Bright Lights — How You Love Me
+                    </div>
+                  </div>
+                  <div class="tracks__listItem tr_2">
+                    <div class="tracks__number">02</div>
+                    <div class="tracks__music">
+                      Bright Lights, Kaleena Zanders, Kandy — War For Love
+                    </div>
+                  </div>
+                  <div class="tracks__listItem tr_3">
+                    <div class="tracks__number">03</div>
+                    <div class="tracks__music">
+                      Pink Is Punk, Benny Benassi, Bright Lights — Ghost
+                    </div>
+                  </div>
+                  <div class="tracks__listItem tr_4">
+                    <div class="tracks__number">04</div>
+                    <div class="tracks__music">
+                      Hardwell, Dyro, Bright Lights — Never Say Goodbye
+                    </div>
+                  </div>
+                  <div class="tracks__listItem tr_5">
+                    <div class="tracks__number">05</div>
+                    <div class="tracks__music">
+                      Zeds Dead, Dirtyphonics, Bright Lights — Where Are You Now
+                    </div>
+                  </div>
+                  <div class="tracks__listItem tr_6">
+                    <div class="tracks__number">06</div>
+                    <div class="tracks__music">
+                      Zedd, Bright Lights — Follow You Down
+                    </div>
+                  </div>
+                </div>
+                <div class="tracks__links">
+                  <div class="tracks__follow">Follow me:</div>
+                  <div class="tracks__linkItem">
+                    <div class="tracks__linkImg">
+                      <img src="img/spotify.png" alt="" />
+                    </div>
+                    <div class="tracks__nameLink">Spotify</div>
+                  </div>
+                  <div class="tracks__linkItem">
+                    <div class="tracks__linkImg">
+                      <img src="img/itunes.png" alt="" />
+                    </div>
+                    <div class="tracks__nameLink">iTunes</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="collage">
+          <div class="container">
+            <div class="collage__items">
+              <div class="collage__item collage_1">
+                <img class="collage__img col1" src="img/collage.png" alt="" />
+              </div>
+              <div class="collage__item collage_2">
+                <img class="collage__img col2" src="img/collage2.png" alt="" />
+              </div>
+              <div class="collage__item collage_3">
+                <img class="collage__img col3" src="img/collage3.png" alt="" />
+              </div>
+              <div class="collage__item collage_4">
+                <img class="collage__img col4" src="img/collage4.png" alt="" />
+              </div>
+
+              <div class="collage__item collage_5">
+                <img
+                  class="collage__img collage_5Img col5"
+                  src="img/collage5.png"
+                  alt=""
+                />
+                <div class="collage__text">EDC Las Vegas Mainstage</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sliderW">
+          <div class="sliderCont">
+            <div class="slider">
+              <div class="slider__cont">
+                <div class="slider__item">
+                  <div class="slider__img">
+                    <img src="img/Slider1.png" alt="" />
+                  </div>
+                  <div class="slider__subtitle">Chandler, AZ</div>
+                  <div class="slider__txt">The Park at Wild Horse Pass</div>
+                  <div class="slider__dateTic">
+                    <div class="slider__date">Apr 02 2021</div>
+                    <div class="slider__tic">Tickets</div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__cont">
+                <div class="slider__item">
+                  <div class="slider__img">
+                    <img src="img/Slider2.png" alt="" />
+                  </div>
+                  <div class="slider__subtitle">Ibiza, IBZ</div>
+                  <div class="slider__txt">Swag Ibiza Club</div>
+                  <div class="slider__dateTic">
+                    <div class="slider__date">Jul 08 2021</div>
+                    <div class="slider__tic">Tickets</div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__cont">
+                <div class="slider__item">
+                  <div class="slider__img">
+                    <img src="img/Slider3.png" alt="" />
+                  </div>
+                  <div class="slider__subtitle">Ibiza, IBZ</div>
+                  <div class="slider__txt">El Swing Ibiza</div>
+                  <div class="slider__dateTic">
+                    <div class="slider__date">Jul 10 2021</div>
+                    <div class="slider__tic">Tickets</div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__cont">
+                <div class="slider__item">
+                  <div class="slider__img">
+                    <img class="slider_IMG" src="img/slider4.jpg" alt="" />
+                  </div>
+                  <div class="slider__subtitle">Ibiza, IBZ</div>
+                  <div class="slider__txt">El Swing Ibiza</div>
+                  <div class="slider__dateTic">
+                    <div class="slider__date">Jul 10 2021</div>
+                    <div class="slider__tic">Tickets</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="container">
+            <div class="footer__items">
+              <div class="footer__logoAll">
+                <div class="footer__logoL">
+                  <img src="img/Logo.png" alt="" />
+                </div>
+                <div class="footer__logoR">
+                  <img src="img/LogoTxt.png" alt="" />
+                </div>
+              </div>
+              <div class="footer__contacts">
+                <div class="footer__left">
+                  <div class="footer__left1">ARTIST MANAGMENT:</div>
+                  <div class="footer__left2">EMAIL:</div>
+                </div>
+                <div class="footer__right">
+                  <div class="footer__right1">JAKE HENNY</div>
+                  <div class="footer__right2">
+                    JAKE@BRIGHTLIGHTSOFFICIAL.COM
+                  </div>
+                </div>
+              </div>
+              <div class="footer__socialNetwork">
+                <div class="footer__itunes">
+                  <img class="footer__img" src="img/Fitunes.png" alt="" />
+                </div>
+                <div class="footer__spotify">
+                  <img class="footer__img" src="img/Fspotify.png" alt="" />
+                </div>
+                <div class="footer__instagram">
+                  <img class="footer__img" src="img/Finstagram.png" alt="" />
+                </div>
+                <div class="footer__youtube">
+                  <img class="footer__img" src="img/Fyoutube.png" alt="" />
+                </div>
+                <div class="footer__twitter">
+                  <img class="footer__img" src="img/Ftwitter.png" alt="" />
+                </div>
+                <div class="footer__facebook">
+                  <img class="footer__img" src="img/Ffacebook.png" alt="" />
+                </div>
+              </div>
+              <div class="footer__copyright">© 2020 DJ bright lights.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- \Первая страница -->
+    </div>
+    <!-- \Основная оболчка -->
+  </body>
+</html>
