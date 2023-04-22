@@ -17,6 +17,7 @@ let header = document.querySelector('.header');
 let firstTitle = document.querySelector('.first-main__title');
 let secTitle = document.querySelector('.first-main__secTitle');
 let musicOne = document.querySelector('.first-music__items');
+
 burger.addEventListener('click', function () {
   burger.classList.toggle('active');
   header__menu.classList.toggle('active');
@@ -256,19 +257,61 @@ let scrollContacts = document.querySelector('.footer__items');
 
 about.addEventListener('click', () => {
   scrollAbout.scrollIntoView({ behavior: 'smooth' });
+  burger.classList.remove('active');
+  header__menu.classList.remove('active');
+  document.body.classList.remove('lock');
+  header.classList.remove('fixed');
+  firstTitle.classList.remove('active');
+  secTitle.classList.remove('active');
+  musicOne.classList.remove('active');
 });
 news.addEventListener('click', () => {
+  burger.classList.remove('active');
+  header__menu.classList.remove('active');
+  document.body.classList.remove('lock');
+  header.classList.remove('fixed');
+  firstTitle.classList.remove('active');
+  secTitle.classList.remove('active');
+  musicOne.classList.remove('active');
   scrollNews.scrollIntoView({ behavior: 'smooth' });
 });
 music.addEventListener('click', () => {
+  burger.classList.remove('active');
+  header__menu.classList.remove('active');
+  document.body.classList.remove('lock');
+  header.classList.remove('fixed');
+  firstTitle.classList.remove('active');
+  secTitle.classList.remove('active');
+  musicOne.classList.remove('active');
   scrollMusic.scrollIntoView({ behavior: 'smooth' });
 });
 media.addEventListener('click', () => {
+  burger.classList.remove('active');
+  header__menu.classList.remove('active');
+  document.body.classList.remove('lock');
+  header.classList.remove('fixed');
+  firstTitle.classList.remove('active');
+  secTitle.classList.remove('active');
+  musicOne.classList.remove('active');
   scrollMedia.scrollIntoView({ behavior: 'smooth' });
 });
 tours.addEventListener('click', () => {
+  burger.classList.remove('active');
+  header__menu.classList.remove('active');
+  document.body.classList.remove('lock');
+  header.classList.remove('fixed');
+  firstTitle.classList.remove('active');
+  secTitle.classList.remove('active');
+  musicOne.classList.remove('active');
   scrollTours.scrollIntoView({ behavior: 'smooth' });
 });
 contacts.addEventListener('click', () => {
+  burger.classList.remove('active');
+  header__menu.classList.remove('active');
+  document.body.classList.remove('lock');
+  header.classList.remove('fixed');
+  firstTitle.classList.remove('active');
+  secTitle.classList.remove('active');
+  musicOne.classList.remove('active');
   scrollContacts.scrollIntoView({ behavior: 'smooth' });
 });
